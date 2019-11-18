@@ -3,7 +3,7 @@ import tauth
 
 api = tauth.api
 
-mozi = 'HelloWorld' #ツイート内容
+text = 'HelloWorld' #ツイート内容
 
-api.update_status(mozi + "\ntweepy") 
+api.update_status(text + "\ntweepy") 
 print('Done!')
